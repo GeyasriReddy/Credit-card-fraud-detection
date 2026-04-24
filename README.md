@@ -75,3 +75,13 @@ Special focus was given to **Recall**, as missing a fraudulent transaction can b
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
+
+  ##  Dataset
+The dataset used in this project is publicly available on Kaggle:
+
+##  Dataset
+The dataset used in this project is publicly available on Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+
