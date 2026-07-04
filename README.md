@@ -92,9 +92,9 @@ This project demonstrates how machine learning techniques can be effectively app
 1. Open the notebook in Google Colab  
 2. Upload the dataset to your Google Drive  
 3. Mount Google Drive:
-   ```python
+    python
 from google.colab import drive
-drive.mount('/content/drive')```
+drive.mount('/content/drive')
 
 
 ## Dataset
