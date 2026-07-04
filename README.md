@@ -87,24 +87,23 @@ This project demonstrates how machine learning techniques can be effectively app
   - `1` → Fraudulent transaction  
 - Loaded directly from **Google Drive** in the notebook  
 
-##  How to Run the Project
+## How to Run the Project
 
-1. Open the notebook in Google Colab  
-2. Upload the dataset to your Google Drive  
+1. Open the notebook in Google Colab.
+2. Upload the dataset to your Google Drive.
 3. Mount Google Drive:
-    python
+
+```python
 from google.colab import drive
 drive.mount('/content/drive')
-
+```
 
 ## Dataset
 
 The dataset used in this project is publicly available on Kaggle.
 
-🔗 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+🔗 [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-## License
 
-This project is developed for educational purposes.
 
 
