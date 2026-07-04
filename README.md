@@ -1,5 +1,17 @@
 #  Credit Card Fraud Detection using Machine Learning
 
+## Team Members
+
+- Y Geyasri 
+- Varshita Chauhan
+
+ ## Project Structure
+
+📂 Credit-Card-Fraud-Detection
+│── credit_card_fraud_detection.ipynb
+│── README.md
+
+
 ## Project Overview
 Credit card fraud is a critical problem in the financial industry, leading to billions of dollars in losses every year. Detecting fraudulent transactions is challenging due to the highly imbalanced nature of the data and the evolving patterns of fraud.
 This project focuses on building a machine learning-based solution to identify fraudulent credit card transactions. By analyzing historical transaction data, the system learns patterns that differentiate legitimate transactions from fraudulent ones.
@@ -48,6 +60,14 @@ The models were evaluated using the following metrics:
 
 Special focus was given to **Recall**, as missing a fraudulent transaction can be costly.
 
+## Results
+
+Among the implemented models, Random Forest achieved the best performance in detecting fraudulent transactions while maintaining high recall.
+
+## Conclusion
+
+This project demonstrates how machine learning techniques can be effectively applied to detect fraudulent credit card transactions. By comparing multiple classification models, the Random Forest classifier emerged as the most effective model for this highly imbalanced dataset, achieving strong fraud detection performance.
+
 ##  Key Findings
 - The dataset is **highly imbalanced**, with very few fraudulent transactions compared to legitimate ones  
 - Tree-based models like Random Forest perform better in capturing fraud patterns  
@@ -73,15 +93,18 @@ Special focus was given to **Recall**, as missing a fraudulent transaction can b
 2. Upload the dataset to your Google Drive  
 3. Mount Google Drive:
    ```python
-   from google.colab import drive
-   drive.mount('/content/drive')
+from google.colab import drive
+drive.mount('/content/drive')```
 
-  ##  Dataset
-The dataset used in this project is publicly available on Kaggle:
 
-##  Dataset
-The dataset used in this project is publicly available on Kaggle:
+## Dataset
 
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+The dataset used in this project is publicly available on Kaggle.
+
+🔗 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+## License
+
+This project is developed for educational purposes.
 
 
